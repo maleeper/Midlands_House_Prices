@@ -65,7 +65,7 @@ The analysis combines **four open datasets** joined on postcode, address and LSO
 - Key fields: `price`, `transfer_date`, `postcode`, `property_type`, `new_build`, `tenure`.  
 - Purpose: target variable and core property attributes.  
 
-Price Paid Data is released under the [Open Government Licence (OGL)](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+The PPD documentation is provided at [Price Paid Dataset Price details](https://landregistry.data.gov.uk/app/doc/ppd/). Paid Data is released under the [Open Government Licence (OGL)](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
   
 📎 [Price Paid Data](https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads)
 
