@@ -56,3 +56,30 @@ In summary:
 | H5 | Leasehold discount vs freehold | Negative effect | Viz, t-test, Regression |
 
 ---
+## Dataset Content
+
+The analysis combines **four open datasets** joined on postcode, address and LSOA codes.
+
+### 1 UK Land Registry — Price Paid Data (PPD)
+- Residential sales across England & Wales (2015–2025).  
+- Key fields: `price`, `transfer_date`, `postcode`, `property_type`, `new_build`, `tenure`.  
+- Purpose: target variable and core property attributes.  
+📎 [Price Paid Data](https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads)
+
+### 2️ ONS Postcode Directory (ONSPD)
+- Maps postcodes to LSOA/MSOA/Local Authority.  
+- Fields: `postcode`, `lsoa11cd`, `msoa11nm`, `ladnm`.  
+- Purpose: spatial join between PPD, IMD and EPC.  
+📎 [ONS Postcode Directory](https://geoportal.statistics.gov.uk/)
+
+### 3️ Indices of Multiple Deprivation (IMD 2019)
+- Official UK deprivation scores at LSOA level.  
+- Fields: `lsoa11cd`, `imd_score`, `imd_rank`, `imd_decile`.  
+- Purpose: adds socio-economic context.  
+📎 [IMD 2019](https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019)
+
+### 4️ Energy Performance Certificates (EPC)
+- Energy ratings and floor areas for individual properties.  
+- Fields: `postcode`, `property_type`, `built_form`, `total_floor_area`, `current_energy_rating`.  
+- Purpose: floor area (for `price_per_sqm`) and energy efficiency feature.  
+📎 [EPC Open Data](https://epc.opendatacommunities.org/)
