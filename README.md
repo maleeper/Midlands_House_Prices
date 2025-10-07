@@ -64,22 +64,31 @@ The analysis combines **four open datasets** joined on postcode, address and LSO
 - Residential sales across England & Wales (2015–2025).  
 - Key fields: `price`, `transfer_date`, `postcode`, `property_type`, `new_build`, `tenure`.  
 - Purpose: target variable and core property attributes.  
+
+Price Paid Data is released under the [Open Government Licence (OGL)](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+  
 📎 [Price Paid Data](https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads)
 
 ### 2️ ONS Postcode Directory (ONSPD)
 - Maps postcodes to LSOA/MSOA/Local Authority.  
 - Fields: `postcode`, `lsoa11cd`, `msoa11nm`, `ladnm`.  
 - Purpose: spatial join between PPD, IMD and EPC.  
+- PCD_OA_LSOA_MSOA_LAD_MAY22_UK_LU.CSV is a UK government geospatial dataset. It stands for Postcode Directory (PCD), Output Area (OA), Lower Layer Super Output Area (LSOA), Middle Layer Super Output Area (MSOA), Local Authority District (LAD), May 2022, UK, Lookup (LU). It's published by the Office for National Statistics (ONS) and used for mapping postcodes to statistical and administrative areas. 
+  
+📎 [License details](https://www.ons.gov.uk/methodology/geography/licences)
+  
 📎 [ONS Postcode Directory](https://geoportal.statistics.gov.uk/)
 
 ### 3️ Indices of Multiple Deprivation (IMD 2019)
 - Official UK deprivation scores at LSOA level.  
 - Fields: `lsoa11cd`, `imd_score`, `imd_rank`, `imd_decile`.  
 - Purpose: adds socio-economic context.  
+  
 📎 [IMD 2019](https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019)
 
 ### 4️ Energy Performance Certificates (EPC)
 - Energy ratings and floor areas for individual properties.  
 - Fields: `postcode`, `property_type`, `built_form`, `total_floor_area`, `current_energy_rating`.  
 - Purpose: floor area (for `price_per_sqm`) and energy efficiency feature.  
+  
 📎 [EPC Open Data](https://epc.opendatacommunities.org/)
