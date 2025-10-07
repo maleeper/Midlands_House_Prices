@@ -73,7 +73,7 @@ Price Paid Data is released under the [Open Government Licence (OGL)](http://www
 - Maps postcodes to LSOA/MSOA/Local Authority.  
 - Fields: `postcode`, `lsoa11cd`, `msoa11nm`, `ladnm`.  
 - Purpose: spatial join between PPD, IMD and EPC.  
-- PCD_OA_LSOA_MSOA_LAD_MAY22_UK_LU.CSV is a UK government geospatial dataset. It stands for Postcode Directory (PCD), Output Area (OA), Lower Layer Super Output Area (LSOA), Middle Layer Super Output Area (MSOA), Local Authority District (LAD), May 2022, UK, Lookup (LU). It's published by the Office for National Statistics (ONS) and used for mapping postcodes to statistical and administrative areas. 
+- PCD_OA_LSOA_MSOA_LAD_MAY22_UK_LU.CSV is a UK government geospatial dataset. It stands for Postcode Directory (PCD), Output Area (OA), Lower Layer Super Output Area (LSOA), Middle Layer Super Output Area (MSOA), Local Authority District (LAD), May 2022, UK, Lookup (LU). It's published by the Office for National Statistics (ONS) and used for mapping postcodes to statistical and administrative areas. The raw CSV file is over 400Mb in size so this will be zipped to upload to Github.
   
 📎 [License details](https://www.ons.gov.uk/methodology/geography/licences)
   
