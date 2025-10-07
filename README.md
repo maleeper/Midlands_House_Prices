@@ -37,22 +37,22 @@ This project aims to:
 
 Hypothesis 1: The property type has an effect on the price per square metre: Detached houses have a higher price per square metre than semi-detached, which are higher than terraced, which are higher than flats. This will be validated using visualizations and statistical (ANOVA and Tukey) tests.
 
-Hypothesis 2: New builds sell at a premium compared to older properties. This will be validated using visualizations and statistical tests t-test).
+Hypothesis 2: New builds sell at a premium compared to older properties. This will be validated using visualizations and statistical tests (t-test).
 
 Hypothesis 3: A higher Index of Multiple Deprivation (IMD) decile is associated with a higher price per square metre. The expected relationship is a positive correlation. This will be validated using visualizations, statistical tests (Spearman’s rho) or regression analysis.
 
-Hypothesis 4: Properties with EPC bands A to C have a price premium compared to bands D to G. The expected relationship is a positive effect. This will be validated using ANOVA or regression.
+Hypothesis 4: Properties with EPC bands A to C have a price premium compared to bands D to G. The expected relationship is a positive effect. This will be validated using visualizations, ANOVA or regression.
 
-Hypothesis 5: Leasehold properties sell at a discount compared to freehold properties. The expected relationship is a negative effect. This will be validated using a t-test and regression analysis.
+Hypothesis 5: Leasehold properties sell at a discount compared to freehold properties. The expected relationship is a negative effect. This will be validated using visualizations, a t-test and regression analysis.
 
 In summary:
 
 | ID | Hypothesis | Expected Relationship | Validation |
 |----|-------------|----------------------|-------------|
-| H1 | Detached > Semi > Terraced > Flat in price per m² | Positive hierarchy | ANOVA + Tukey |
-| H2 | New builds sell at a premium | Positive effect | t-test |
-| H3 | Higher IMD decile → higher price per m² | Positive correlation | Spearman ρ / Regression |
-| H4 | EPC A–C bands have premium vs D–G | Positive effect | ANOVA / Regression |
-| H5 | Leasehold discount vs freehold | Negative effect | t-test + Regression |
+| H1 | Detached > Semi > Terraced > Flat in price per m² | Positive hierarchy | Viz, ANOVA, Tukey |
+| H2 | New builds sell at a premium | Positive effect | Viz, t-test |
+| H3 | Higher IMD decile → higher price per m² | Positive correlation | Viz, Spearman rho, Regression |
+| H4 | EPC A–C bands have premium vs D–G | Positive effect | Viz, ANOVA, Regression |
+| H5 | Leasehold discount vs freehold | Negative effect | Viz, t-test, Regression |
 
 ---
