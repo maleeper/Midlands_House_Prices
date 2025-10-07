@@ -83,6 +83,8 @@ The PPD documentation is provided at [Price Paid Dataset Price details](https://
 - Official UK deprivation scores at LSOA level.  
 - Fields: `lsoa11cd`, `imd_score`, `imd_rank`, `imd_decile`.  
 - Purpose: adds socio-economic context.  
+
+The IMD data are published under the Open Government Licence. (OGL v3.0). This means you can use, share, and adapt the data freely, but you must attribute the source. No personal data is included, so GDPR does not apply.
   
 📎 [IMD 2019](https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019)
 
@@ -90,5 +92,7 @@ The PPD documentation is provided at [Price Paid Dataset Price details](https://
 - Energy ratings and floor areas for individual properties.  
 - Fields: `postcode`, `property_type`, `built_form`, `total_floor_area`, `current_energy_rating`.  
 - Purpose: floor area (for `price_per_sqm`) and energy efficiency feature.  
+  
+📎 [License details](https://epc.opendatacommunities.org/docs/copyright)
   
 📎 [EPC Open Data](https://epc.opendatacommunities.org/)
