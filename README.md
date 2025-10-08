@@ -60,14 +60,18 @@ In summary:
 
 The analysis combines **four open datasets** joined on postcode, address and LSOA codes.
 
+
 ### 1 UK Land Registry — Price Paid Data (PPD)
 - Residential sales across England & Wales (2015–2025).  
 - Key fields: `price`, `transfer_date`, `postcode`, `property_type`, `new_build`, `tenure`.  
 - Purpose: target variable and core property attributes.  
 
-The PPD documentation is provided at [Price Paid Dataset Price details](https://landregistry.data.gov.uk/app/doc/ppd/). Paid Data is released under the [Open Government Licence (OGL)](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+The PPD documentation is provided at [Price Paid Dataset Price details](https://landregistry.data.gov.uk/app/doc/ppd/). 
+
+**License details**: Price Paid Data is released under the [Open Government Licence (OGL)](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
   
 📎 [Price Paid Data](https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads)
+
 
 ### 2️ ONS Postcode Directory (ONSPD)
 - Maps postcodes to LSOA/MSOA/Local Authority.  
@@ -79,20 +83,24 @@ The PPD documentation is provided at [Price Paid Dataset Price details](https://
   
 📎 [ONS Postcode Directory](https://geoportal.statistics.gov.uk/)
 
+
 ### 3️ Indices of Multiple Deprivation (IMD 2019)
 - Official UK deprivation scores at LSOA level.  
 - Fields: `lsoa11cd`, `imd_score`, `imd_rank`, `imd_decile`.  
 - Purpose: adds socio-economic context.  
 
-The IMD data are published under the Open Government Licence. (OGL v3.0). This means you can use, share, and adapt the data freely, but you must attribute the source. No personal data is included, so GDPR does not apply.
+**License details**: The IMD data are released under the [Open Government Licence (OGL)](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
   
 📎 [IMD 2019](https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019)
 
+
 ### 4️ Energy Performance Certificates (EPC)
 - Energy ratings and floor areas for individual properties.  
-- Fields: `postcode`, `property_type`, `built_form`, `total_floor_area`, `current_energy_rating`.  
-- Purpose: floor area (for `price_per_sqm`) and energy efficiency feature.  
+- Fields: `postcode`, `address`, `total_floor_area`, `current_energy_rating`.  The EPC data dictionary: 'EPC columns.CSV' 
+- Purpose: floor area (for `price_per_sqm`) and energy rating feature.
   
 📎 [License details](https://epc.opendatacommunities.org/docs/copyright)
   
-📎 [EPC Open Data](https://epc.opendatacommunities.org/)
+📎 [EPC Open Data](https://epc.opendatacommunities.org/files/all-domestic-certificates.zip)
+    
+https://epc.opendatacommunities.org
