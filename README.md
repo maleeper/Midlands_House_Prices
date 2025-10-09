@@ -35,7 +35,7 @@ This project aims to:
 
 ## Hypotheses
 
-Hypothesis 1: The property type has an effect on the price per square metre: Detached houses have a higher price per square metre than semi-detached, which are higher than terraced, which are higher than flats. This will be validated using visualizations and statistical (ANOVA and Tukey) tests.
+Hypothesis 1: The property type has an effect on the price: Detached houses have a higher price than semi-detached, which are higher than terraced, which are higher than flats. This will be validated using visualizations and statistical (ANOVA and Tukey) tests. The effect on price per square metre will also be tested.
 
 Hypothesis 2: New builds sell at a premium compared to older properties. This will be validated using visualizations and statistical tests (t-test).
 
