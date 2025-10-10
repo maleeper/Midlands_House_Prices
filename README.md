@@ -58,15 +58,16 @@ In summary:
 ---
 ## Dataset Content
 
-The analysis combines **four open datasets** joined on postcode, address and LSOA codes.
-
+### The analysis combines four open datasets joined on postcode, address and LSOA codes.
 
 ### 1 UK Land Registry — Price Paid Data (PPD)
-- Residential sales across England & Wales (2015–2025).  
-- Key fields: `price`, `transfer_date`, `postcode`, `property_type`, `new_build`, `tenure`.  
+- Residential sales across England & Wales 
+- Key fields: `price`, `postcode`, `property_type`, `new_build`, `tenure`.  
 - Purpose: target variable and core property attributes.  
 
 The PPD documentation is provided at [Price Paid Dataset Price details](https://landregistry.data.gov.uk/app/doc/ppd/). 
+
+Note that the transfer dates extend into 2024 because Land Registry includes sales completed late 2024 but registered by mid-2025; this is consistent with PPD release lag.
 
 **License details**: Price Paid Data is released under the [Open Government Licence (OGL)](http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
   
