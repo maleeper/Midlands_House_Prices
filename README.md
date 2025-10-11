@@ -35,11 +35,11 @@ This project aims to:
 
 ## Hypotheses
 
-Hypothesis 1: The property type has an effect on the price: Detached houses have a higher price than semi-detached, which are higher than terraced, which are higher than flats. This will be validated using visualizations and statistical (ANOVA and Tukey) tests. The effect on price per square metre will also be tested.
+Hypothesis 1: The property type has an effect on the price: Detached houses have a higher price than semi-detached, which are higher than terraced, which are higher than flats. This will be validated using visualizations or statistical tests. 
 
 Hypothesis 2: New builds sell at a premium compared to older properties. This will be validated using visualizations and statistical tests (t-test).
 
-Hypothesis 3: A higher Index of Multiple Deprivation (IMD) decile is associated with a higher price per square metre. The expected relationship is a positive correlation. This will be validated using visualizations, statistical tests (Spearman’s rho) or regression analysis.
+Hypothesis 3: A higher Index of Multiple Deprivation (IMD) decile is associated with a higher price. The expected relationship is a positive correlation. This will be validated using visualizations or statistical tests.
 
 Hypothesis 4: Properties with EPC bands A to C have a price premium compared to bands D to G. The expected relationship is a positive effect. This will be validated using visualizations, ANOVA or regression.
 
@@ -49,9 +49,9 @@ In summary:
 
 | ID | Hypothesis | Expected Relationship | Validation |
 |----|-------------|----------------------|-------------|
-| H1 | Detached > Semi > Terraced > Flat in price per m² | Positive hierarchy | Viz, ANOVA, Tukey |
+| H1 | Detached > Semi > Terraced > Flat in price  | Positive hierarchy | Viz, ANOVA, Tukey |
 | H2 | New builds sell at a premium | Positive effect | Viz, t-test |
-| H3 | Higher IMD decile → higher price per m² | Positive correlation | Viz, Spearman rho, Regression |
+| H3 | Higher IMD decile → higher price | Positive correlation | Viz, Spearman rho, Regression |
 | H4 | EPC A–C bands have premium vs D–G | Positive effect | Viz, ANOVA, Regression |
 | H5 | Leasehold discount vs freehold | Negative effect | Viz, t-test, Regression |
 
