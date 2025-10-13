@@ -127,7 +127,7 @@ https://epc.opendatacommunities.org
 
 ## Ethics and privacy
 
-All the data used in this project is publically and openly available as described in detail in the datasets section above.
+All the data used in this project is publicly and openly available as described in detail in the datasets section above.
 
 ## Results
 
