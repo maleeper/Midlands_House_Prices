@@ -259,5 +259,6 @@ Coverage bias: Missing floor areas/EPCs can bias the dataset.
 
 ## Acknowledgements
 Thanks to the team at Code Institute, and Vasi Pavaloi in particular for his support throughout the course.
+A number of the Code Institute machine learning lesson code examples were used in the project development.
 
 ----
